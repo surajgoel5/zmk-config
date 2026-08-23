@@ -1,0 +1,5 @@
+config SHIELD_DACTYL_SURAJ_LEFT
+    def_bool $(shields_list_contains,dactyl_suraj_left)
+
+config SHIELD_DACTYL_SURAJ_RIGHT
+    def_bool $(shields_list_contains,dactyl_suraj_right)
