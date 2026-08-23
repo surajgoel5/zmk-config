@@ -3,9 +3,10 @@
 # for instructions.
 
 file_format: "1"
-id: dactyl_sg
-name: dactyl-sg
-type: shield
+id: dactyl_suraj
+name: dactyl-suraj
+type: board
+arch: arm
 
 # Set this to a URL that documents the keyboard.
 url: https://example.com
@@ -16,9 +17,15 @@ features:
   - keys
   - studio  # Remove this line if your keyboard will not support ZMK Studio
 
-requires:
-  - pro_micro
+outputs:
+  - usb
+  - ble
 
 siblings:
-  - dactyl_sg_left
-  - dactyl_sg_right
+  - dactyl_suraj_left
+  - dactyl_suraj_right
+# If your board has multiple revisions in its board.yml, create a matching list here:
+# revisions:
+#   - 2.0.0
+#   - 1.0.0
+# default_revision: 2.0.0
