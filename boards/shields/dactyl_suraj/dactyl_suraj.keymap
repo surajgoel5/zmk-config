@@ -5,14 +5,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            bindings = <#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
         layer_0 {
             bindings = <
                 // LEFT HALF
@@ -46,7 +38,7 @@
                 &kp H       &kp J       &kp K       &kp L       &kp FSLH    &kp LBKT   &kp RBKT
 
                 // R3: N M , . ; UP `
-                &kp N       &kp M       &kp COMMA   &kp DOT     &kp SEMI    &kp UP     &kp GRAVE
+                &kp N       &kp M       &kp COMMA   &kp DOT     &kp SEMI    &kp UP     &studio_unlock
 
                 // R4: - = LEFT DOWN RIGHT
                 &kp MINUS   &kp EQUAL    &kp LEFT    &kp DOWN    &kp RIGHT
