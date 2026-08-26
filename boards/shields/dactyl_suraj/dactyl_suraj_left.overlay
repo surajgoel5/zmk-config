@@ -2,7 +2,12 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix-transform = &default_transform;
+        zmk,kscan = &left_kscan;
+        zmk,physical-layout = &dactyl_suraj_layout;
     };
+};
+
+&dactyl_suraj_layout {
+    transform = <&left_transform>;
+    kscan = <&left_kscan>;
 };

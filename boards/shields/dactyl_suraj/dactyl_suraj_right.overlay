@@ -2,8 +2,12 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
-		zmk,physical-layout = &dactyl_suraj_layout;
-
+        zmk,kscan = &right_kscan;
+        zmk,physical-layout = &dactyl_suraj_layout;
     };
+};
+
+&dactyl_suraj_layout {
+    transform = <&right_transform>;
+    kscan = <&right_kscan>;
 };
