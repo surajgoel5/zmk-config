@@ -3,8 +3,6 @@ if SHIELD_DACTYL_SURAJ_LEFT
 config ZMK_KEYBOARD_NAME
     default "Dactyl-Suraj"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
 
 endif # SHIELD_DACTYL_SURAJ_LEFT
 
@@ -13,4 +11,7 @@ if SHIELD_DACTYL_SURAJ_LEFT || SHIELD_DACTYL_SURAJ_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+	
 endif # SHIELD_DACTYL_SURAJ_LEFT || SHIELD_DACTYL_SURAJ_RIGHT
