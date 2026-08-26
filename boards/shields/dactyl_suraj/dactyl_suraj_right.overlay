@@ -3,11 +3,10 @@
 / {
     chosen {
         zmk,kscan = &right_kscan;
-        zmk,physical-layout = &dactyl_suraj_layout;
+        zmk,physical-layout = &dactyl_suraj_right_layout;
     };
 };
 
-&dactyl_suraj_layout {
+&dactyl_suraj_right_layout {
     transform = <&right_transform>;
-    kscan = <&right_kscan>;
 };
