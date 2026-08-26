@@ -3,6 +3,5 @@
 / {
     chosen {
         zmk,kscan = &right_kscan;
-        zmk,physical-layout = &dactyl_suraj_right_layout;
     };
 };
