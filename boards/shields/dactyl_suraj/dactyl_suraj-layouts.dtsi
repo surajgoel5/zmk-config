@@ -4,108 +4,106 @@
     dactyl_suraj_left_layout: dactyl_suraj_left_layout {
         compatible = "zmk,physical-layout";
         display-name = "Dactyl Suraj Left";
-
         transform = <&left_transform>;
 
-        keys = <
-            /* Row 0: ESC 1 2 3 4 5 */
-            &key_physical_attrs 100 100  0 0.375
-            &key_physical_attrs 100 100  1 0.375
-            &key_physical_attrs 100 100  2 0.125
-            &key_physical_attrs 100 100  3 0
-            &key_physical_attrs 100 100  4 0.125
-            &key_physical_attrs 100 100  5 0.25
+        keys =
+            /* Row 0 */
+            <&key_physical_attrs 100 100   0  38    0    0   0>,
+            <&key_physical_attrs 100 100 100  38    0    0   0>,
+            <&key_physical_attrs 100 100 200  13    0    0   0>,
+            <&key_physical_attrs 100 100 300   0    0    0   0>,
+            <&key_physical_attrs 100 100 400  13    0    0   0>,
+            <&key_physical_attrs 100 100 500  25    0    0   0>,
 
-            /* Row 1: TAB Q W E R T */
-            &key_physical_attrs 100 100  0 1.375
-            &key_physical_attrs 100 100  1 1.375
-            &key_physical_attrs 100 100  2 1.125
-            &key_physical_attrs 100 100  3 1
-            &key_physical_attrs 100 100  4 1.125
-            &key_physical_attrs 100 100  5 1.25
+            /* Row 1 */
+            <&key_physical_attrs 100 100   0 138    0    0   0>,
+            <&key_physical_attrs 100 100 100 138    0    0   0>,
+            <&key_physical_attrs 100 100 200 113    0    0   0>,
+            <&key_physical_attrs 100 100 300 100    0    0   0>,
+            <&key_physical_attrs 100 100 400 113    0    0   0>,
+            <&key_physical_attrs 100 100 500 125    0    0   0>,
 
-            /* Row 2: CAPS A S D F G */
-            &key_physical_attrs 100 100  0 2.375
-            &key_physical_attrs 100 100  1 2.375
-            &key_physical_attrs 100 100  2 2.125
-            &key_physical_attrs 100 100  3 2
-            &key_physical_attrs 100 100  4 2.125
-            &key_physical_attrs 100 100  5 2.25
+            /* Row 2 */
+            <&key_physical_attrs 100 100   0 238    0    0   0>,
+            <&key_physical_attrs 100 100 100 238    0    0   0>,
+            <&key_physical_attrs 100 100 200 213    0    0   0>,
+            <&key_physical_attrs 100 100 300 200    0    0   0>,
+            <&key_physical_attrs 100 100 400 213    0    0   0>,
+            <&key_physical_attrs 100 100 500 225    0    0   0>,
 
-            /* Row 3: SHIFT Z X C V B */
-            &key_physical_attrs 100 100  0 3.375
-            &key_physical_attrs 100 100  1 3.375
-            &key_physical_attrs 100 100  2 3.125
-            &key_physical_attrs 100 100  3 3
-            &key_physical_attrs 100 100  4 3.125
-            &key_physical_attrs 100 100  5 3.25
+            /* Row 3 */
+            <&key_physical_attrs 100 100   0 338    0    0   0>,
+            <&key_physical_attrs 100 100 100 338    0    0   0>,
+            <&key_physical_attrs 100 100 200 313    0    0   0>,
+            <&key_physical_attrs 100 100 300 300    0    0   0>,
+            <&key_physical_attrs 100 100 400 313    0    0   0>,
+            <&key_physical_attrs 100 100 500 325    0    0   0>,
 
-            /* Row 4: CTRL SQT BSLH HASH */
-            &key_physical_attrs 100 100  0 4.375
-            &key_physical_attrs 100 100  1 4.375
-            &key_physical_attrs 100 100  2 4.125
-            &key_physical_attrs 100 100  3 4
+            /* Row 4 */
+            <&key_physical_attrs 100 100   0 438    0    0   0>,
+            <&key_physical_attrs 100 100 100 438    0    0   0>,
+            <&key_physical_attrs 100 100 200 413    0    0   0>,
+            <&key_physical_attrs 100 100 300 400    0    0   0>,
 
-            /* Row 5: GUI ALT SPACE */
-            &key_physical_attrs 100 100  3.48 5.125
-            &key_physical_attrs 100 100  4 5.125
-            &key_physical_attrs 150 100  4.48 4.625
-        >;
+            /* Row 5 */
+            <&key_physical_attrs 100 100 348 513    0    0   0>,
+            <&key_physical_attrs 100 100 400 513 1500  398 789>,
+            <&key_physical_attrs 100 150 448 463 3000  398 789>
+        ;
     };
 
     dactyl_suraj_right_layout: dactyl_suraj_right_layout {
         compatible = "zmk,physical-layout";
         display-name = "Dactyl Suraj Right";
-
         transform = <&right_transform>;
 
-        keys = <
-            /* Row 0: 6 7 8 9 0 BSPC DEL */
-            &key_physical_attrs 100 100  9 0.25
-            &key_physical_attrs 100 100 10 0.125
-            &key_physical_attrs 100 100 11 0
-            &key_physical_attrs 100 100 12 0.125
-            &key_physical_attrs 100 100 13 0.375
-            &key_physical_attrs 100 100 14 0.375
-            &key_physical_attrs 100 100 15 0.375
+        keys =
+            /* Row 0 */
+            <&key_physical_attrs 100 100  900  25    0    0    0>,
+            <&key_physical_attrs 100 100 1000  13    0    0    0>,
+            <&key_physical_attrs 100 100 1100   0    0    0    0>,
+            <&key_physical_attrs 100 100 1200  13    0    0    0>,
+            <&key_physical_attrs 100 100 1300  38    0    0    0>,
+            <&key_physical_attrs 100 100 1400  38    0    0    0>,
+            <&key_physical_attrs 100 100 1500  38    0    0    0>,
 
-            /* Row 1: Y U I O P RET */
-            &key_physical_attrs 100 100  9 1.25
-            &key_physical_attrs 100 100 10 1.125
-            &key_physical_attrs 100 100 11 1
-            &key_physical_attrs 100 100 12 1.125
-            &key_physical_attrs 100 100 13 1.375
-            &key_physical_attrs 200 100 14 1.375
+            /* Row 1 */
+            <&key_physical_attrs 100 100  900 125    0    0    0>,
+            <&key_physical_attrs 100 100 1000 113    0    0    0>,
+            <&key_physical_attrs 100 100 1100 100    0    0    0>,
+            <&key_physical_attrs 100 100 1200 113    0    0    0>,
+            <&key_physical_attrs 100 100 1300 138    0    0    0>,
+            <&key_physical_attrs 200 100 1400 138    0    0    0>,
 
-            /* Row 2: H J K L / [ ] */
-            &key_physical_attrs 100 100  9 2.25
-            &key_physical_attrs 100 100 10 2.125
-            &key_physical_attrs 100 100 11 2
-            &key_physical_attrs 100 100 12 2.125
-            &key_physical_attrs 100 100 13 2.375
-            &key_physical_attrs 100 100 14 2.375
-            &key_physical_attrs 100 100 15 2.375
+            /* Row 2 */
+            <&key_physical_attrs 100 100  900 225    0    0    0>,
+            <&key_physical_attrs 100 100 1000 213    0    0    0>,
+            <&key_physical_attrs 100 100 1100 200    0    0    0>,
+            <&key_physical_attrs 100 100 1200 213    0    0    0>,
+            <&key_physical_attrs 100 100 1300 238    0    0    0>,
+            <&key_physical_attrs 100 100 1400 238    0    0    0>,
+            <&key_physical_attrs 100 100 1500 238    0    0    0>,
 
-            /* Row 3: N M , . ; UP ` */
-            &key_physical_attrs 100 100  9 3.25
-            &key_physical_attrs 100 100 10 3.125
-            &key_physical_attrs 100 100 11 3
-            &key_physical_attrs 100 100 12 3.125
-            &key_physical_attrs 100 100 13 3.375
-            &key_physical_attrs 100 100 14 3.375
-            &key_physical_attrs 100 100 15 3.375
+            /* Row 3 */
+            <&key_physical_attrs 100 100  900 325    0    0    0>,
+            <&key_physical_attrs 100 100 1000 313    0    0    0>,
+            <&key_physical_attrs 100 100 1100 300    0    0    0>,
+            <&key_physical_attrs 100 100 1200 313    0    0    0>,
+            <&key_physical_attrs 100 100 1300 338    0    0    0>,
+            <&key_physical_attrs 100 100 1400 338    0    0    0>,
+            <&key_physical_attrs 100 100 1500 338    0    0    0>,
 
-            /* Row 4: - = LEFT DOWN RIGHT */
-            &key_physical_attrs 100 100 11 4
-            &key_physical_attrs 100 100 12 4.125
-            &key_physical_attrs 100 100 13 4.375
-            &key_physical_attrs 100 100 14 4.375
-            &key_physical_attrs 100 100 15 4.375
+            /* Row 4 */
+            <&key_physical_attrs 100 100 1100 400    0    0    0>,
+            <&key_physical_attrs 100 100 1200 413    0    0    0>,
+            <&key_physical_attrs 100 100 1300 438    0    0    0>,
+            <&key_physical_attrs 100 100 1400 438    0    0    0>,
+            <&key_physical_attrs 100 100 1500 438    0    0    0>,
 
-            /* Row 5: SPACE RALT RCTRL */
-            &key_physical_attrs 150 100  9.52 4.625
-            &key_physical_attrs 100 100 10 5.125
-            &key_physical_attrs 100 100 10.52 5.125
-        >;
+            /* Row 5 */
+            <&key_physical_attrs 150 150  952 463 (-3000) 1102 789>,
+            <&key_physical_attrs 100 100 1000 513 (-1500) 1102 789>,
+            <&key_physical_attrs 100 100 1052 513    0    0   0>
+        ;
     };
 };
