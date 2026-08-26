@@ -6,7 +6,3 @@
         zmk,physical-layout = &dactyl_suraj_right_layout;
     };
 };
-
-&dactyl_suraj_right_layout {
-    transform = <&right_transform>;
-};
