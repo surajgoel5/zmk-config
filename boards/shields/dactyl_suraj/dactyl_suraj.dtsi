@@ -1,11 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    default_transform: keymap_transform0 {
-        compatible = "zmk,matrix-transform";
-#include <dt-bindings/zmk/matrix_transform.h>
-
-/ {
     right_transform: right_transform {
         compatible = "zmk,matrix-transform";
 
