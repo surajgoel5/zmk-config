@@ -2,7 +2,7 @@
 #include "dactyl_suraj-layouts.dtsi"
 
 / {
-    default_transform: matrix_transform_0 {
+    default_transform: default_transform {
         compatible = "zmk,matrix-transform";
 
         rows = <6>;
