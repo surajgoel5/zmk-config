@@ -18,7 +18,7 @@
 &kp CAPS   &kp A    &kp S     &kp D      &kp F           &kp G        &kp H      &kp J   &kp K      &kp L      &kp FSLH  &kp LBKT  &kp RBKT
 &kp RSHFT  &kp Z    &kp X     &kp C      &kp V           &kp B        &kp N      &kp M   &kp COMMA  &kp DOT    &kp SEMI  &kp UP    &kp GRAVE
 &kp LCTRL  &kp SQT  &kp BSLH  &kp POUND  &kp LEFT_WIN    &kp LALT                        &kp MINUS  &kp EQUAL  &kp LEFT  &kp DOWN  &kp RIGHT
-                              &mo 1      &studio_unlock  &kp SPACE    &kp SPACE
+                              &mo 1      &studio_unlock  &kp SPACE    &kp SPACE  &kp RALT &kp RCTRL
             >;
         };
 
