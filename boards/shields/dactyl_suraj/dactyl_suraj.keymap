@@ -18,7 +18,7 @@
 &kp CAPS   &kp A    &kp S     &kp D      &kp F           &kp G        &kp H      &kp J   &kp K      &kp L      &kp FSLH  &kp LBKT  &kp RBKT
 &kp LSHFT  &kp Z    &kp X     &kp C      &kp V           &kp B        &kp N      &kp M   &kp COMMA  &kp DOT    &kp SEMI  &kp UP    &kp RSHFT
 &kp LCTRL  &kp SQT  &kp BSLH  &kp LEFT_WIN  &mo 1     &kp GRAVE                       &kp MINUS  &kp EQUAL  &kp LEFT  &kp DOWN  &kp RIGHT
-                              &kp HASH      &kp LALT  &kp SPACE    &kp SPACE  &kp RALT &kp RCTRL
+                              &kp NUHS      &kp LALT  &kp SPACE    &kp SPACE  &kp RALT &kp RCTRL
             >;
         };
 
