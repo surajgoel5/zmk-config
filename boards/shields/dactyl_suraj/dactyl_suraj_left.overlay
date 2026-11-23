@@ -1,6 +1,6 @@
 #include "dactyl_suraj.dtsi"
 
-
+&uart0 { status = "disabled"; };
 
 
 &kscan0 {
